@@ -1,0 +1,41 @@
+{
+  "data": {
+    "rewards": [
+      {
+        "id": 261,
+        "reward_published_dtl_id": 236,
+        "name": "Give Back $10 SGD",
+        "available_date": "07 Jan 2022",
+        "description": "Give back by contributing towards a donation to non-profit organisation, Child at Street 11, to provide underprivileged children with food and school-going items.",
+        "points": 1000,
+        "reward_type": "voucher",
+        "currency": "coin",
+        "expiration_date": "07 Jan 2022"
+      },
+      {
+        "id": 260,
+        "reward_published_dtl_id": 235,
+        "name": "Give Back $5 SGD",
+        "available_date": "07 Jan 2022",
+        "description": "Give back by contributing towards a donation to non-profit organisation, Child at Street 11, to provide underprivileged children with food and school-going items.",
+        "points": 500,
+        "reward_type": "voucher",
+        "currency": "coin",
+        "expiration_date": "07 Jan 2022"
+      },
+      {
+        "id": 259,
+        "reward_published_dtl_id": 234,
+        "name": "Give Back $1 SGD",
+        "available_date": "07 Jan 2022",
+        "description": "Give back by contributing towards a donation to non-profit organisation, Child at Street 11, to provide underprivileged children with food and school-going items.",
+        "points": 100,
+        "reward_type": "voucher",
+        "currency": "coin",
+        "expiration_date": "07 Jan 2022"
+      }
+    ],
+    "user_points": 2815,
+    "user_gems": 1200
+  }
+}

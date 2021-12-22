@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
+@tailwind utilities;
+
+
+@layer utilities {
+    @variants responsive {
+        .reg-12 {
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: normal;
+          }
+          
+          .reg-14 {
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: normal;
+          }
+          
+          .reg-16 {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: normal;
+          }
+          
+          .reg-20 {
+            font-size: 20px;
+            line-height: 28px;
+            font-weight: normal;
+          }
+          
+          .reg-24 {
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 400;
+          }
+          
+          .reg-30 {
+            font-size: 30px;
+            line-height: 38px;
+            font-weight: normal;
+          }
+          
+          .reg-38 {
+            font-size: 38px;
+            line-height: 46px;
+            font-weight: normal;
+          }
+          
+          .reg-46 {
+            font-size: 46px;
+            line-height: 54px;
+            font-weight: normal;
+          }
+          
+          .reg-56 {
+            font-size: 56px;
+            line-height: 64px;
+            font-weight: normal;
+          }
+          
+          .med-12 {
+            font-size: 12px;
+            line-height: 20px;
+            font-weight: 500;
+          }
+          
+          .med-14 {
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 500;
+          }
+          
+          .med-16 {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+          }
+          
+          .med-20 {
+            font-size: 20px;
+            line-height: 28px;
+            font-weight: 500;
+          }
+          
+          .med-24 {
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: 500;
+          }
+          
+          .med-30 {
+            font-size: 30px;
+            line-height: 38px;
+            font-weight: 500;
+          }
+          
+          .med-38 {
+            font-size: 38px;
+            line-height: 46px;
+            font-weight: 500;
+          }
+          
+          .med-46 {
+            font-size: 46px;
+            line-height: 54px;
+            font-weight: 500;
+          }
+          
+          .med-56 {
+            font-size: 56px;
+            line-height: 64px;
+            font-weight: 500;
+          }
+    }
+}          
